@@ -2,7 +2,7 @@ job('example-freestyle-job') {
     description 'This is an example of a freestyle job created using a DSL script'
    
     scm {
-        git('https://github.com/your-organization/your-repo.git', 'main')
+        git('https://github.com/akashs051190/Read-Freestyle-DSL-Script.git', 'main')
     }
 
     triggers {
